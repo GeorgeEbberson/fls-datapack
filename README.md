@@ -19,6 +19,10 @@ Tested in Python 3.11 but should work in most Python 3 versions. Has no
 dependencies outside the standard library so I haven't worried about a virtual
 environment at this time.
 
+To regenerate the pack, run `python -m build_pack` which will generate the
+`output` folder. `output` will contain the `.zip` datapack (as well as the
+uncompressed files to aid development).
+
 Testing
 -------
 A list of things that should be tested before "releasing" (in the loosest sense
